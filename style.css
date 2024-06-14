@@ -1,0 +1,620 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+body{
+    width:100%;
+    height: auto;
+    line-height: 1.4;
+    background-color: white;
+}
+
+header{
+    width: 100%;
+    background: url("images/headder.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: auto;
+    color: white;
+}
+
+.navbar{
+    width:fit-content;
+    padding: 20px 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.navbar ul li{
+    display:inline-block;
+    margin-left: 130px;
+}
+
+.navbar ul li a{
+    color: white;
+    font-size: 17px;
+}
+
+.navbar ul li a:hover{
+    color: black;
+    background-color: white;
+    padding: 8px;
+    border-radius: 29px;
+    border: none;
+    transition: 0.4s;
+}
+
+.navbar button{
+    margin-left: 30px;
+    padding: 10px;
+    background-color: transparent;
+    border: none;
+    border-radius: 29px;
+}
+
+.navbar button a{
+    color: white;
+}
+
+.navbar button a:hover{
+    color: black;
+    border-radius: none;
+    padding: 10px;
+    background-color:rgb(248, 222, 75);
+    border-radius: 29px;
+    transition: 0.4s;
+}
+
+.navbar .btm{
+    background-color: rgb(248, 222, 75);
+}
+
+.navbar .btm a{
+    color: black;
+}
+
+.navbar h1{
+    font-family: Clicker Script;
+    font-size: 33px;
+}
+
+header .content{
+    padding-left: 40px;
+}
+
+header .content h3{
+    font-size: 17px;
+}
+
+header .content h1{
+    font-family: Clicker Script;
+    font-size: 90px;
+    font-weight: lighter; 
+    padding-top: 7px; 
+}
+
+header .content p{
+    padding-top: 10px;
+}
+
+header .content button{
+    margin-top: 20px;
+    padding: 10px;
+    background-color:rgb(250, 219, 47); 
+    border: none;
+    border-radius: 29px;
+    margin-bottom: 20px;
+}
+
+header .content button a{
+    color: white;
+}
+
+header .content button a:hover{
+    color: black;
+    transition: 0.4s;
+}
+
+.design{
+    padding-top: 50px;
+}
+
+.design .first{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-left: 40px;
+}
+
+.first img{
+    width: 380px;
+    height: 280px;
+    float: right;
+    background-image: none;
+    margin-right: 60px;
+}
+
+.design .section h1{
+    color: rgb(83, 28, 28);
+}
+
+.design .section p{
+    padding-top: 8px;
+}
+
+.design .section button{
+    padding: 10px;
+    border: none;
+    background-color: rgb(250, 219, 47);
+    border-radius: 29px;
+    margin-top: 10px;
+}
+
+.design .section button a{
+    color: black;
+}
+
+.design .section button a:hover{
+    color: white;
+}
+
+.design-splash img{
+    width: 380px;
+    height: 200px;
+    margin-top: -30px;
+}
+
+.second-section .orders{
+    text-align: center;
+}
+
+.orders h1{
+    color:rgb(83, 28, 28);
+    font-size: 37px;
+}
+
+.orders p{
+    font-size: 14px;
+    font-weight: lighter;
+}
+
+.make-orders{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-top: 50px;
+    justify-content:center;
+}
+
+.make-orders .order{
+    margin: 20px;
+    background-color: rgb(252, 247, 218);
+}
+
+.make-orders .order h1{
+    color: rgb(83, 28, 28);
+}
+
+.make-orders .order h2{
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.make-orders .order h3{
+    color: rgb(83, 28, 28);
+    font-family: Payfair Display;
+}
+
+.make-orders .order button{
+    padding: 10px;
+    border: none;
+    border-radius: 29px;
+    background-color:rgb(250, 219, 47);
+}
+
+.make-orders .order button a{
+    color: black;
+}
+
+.make-orders .order button a:hover{
+    color: white;
+    padding: 10px;
+    border-radius: 29px;
+    border: none;
+
+}
+
+.design-logo{
+    float:right;
+}
+
+.design-logo img{
+    float: right;
+    margin-top: -50px;
+}
+
+.third-section h1{
+    text-align: center;
+    margin-top: 220px;
+    color: rgb(83, 28, 28);
+    font-size: 35px;
+}
+
+.third-section p{
+    text-align: center;
+}
+
+.quality{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    text-align: center;
+    justify-content: center;
+}
+
+.exceptions{
+    margin: 10px;
+    background-color: rgb(247, 236, 173);
+    padding-top: 30px;
+    padding-bottom: 40px;
+    text-align: center;
+    width: 150px;
+    padding: 30px;
+    justify-content: center;
+}
+
+.exceptions img{
+    width: 60px;
+    height: 60px;
+}
+
+.exceptions h1{
+    font-size: 23px;
+    margin-top: -2px;
+}
+
+.exceptions h2{
+    font-size: 13px;
+    font-weight: lighter;
+}
+
+.third-section .join-us{
+    text-align: center;
+}
+
+.join-us{
+    color: rgb(83, 28, 28);
+}
+
+.join-us button{
+    padding: 10px;
+    border: none;
+    border-radius: 29px;
+    background-color: rgb(250, 219, 47);
+    margin-top: 5px;
+}
+
+.join-us button a{
+    color: black
+}
+
+.join-us button a:hover{
+    color: white;
+    padding: 5px;
+    border: none;
+    border-radius: 29px;
+}
+
+.fourth-section{
+    background: url("images/Rectangle\ 14.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    margin-top: 50px;
+    overflow: hidden;
+    background-position: center;
+    height:auto;
+}
+
+.coffee-order{
+    text-align: justify;
+    float: left;
+    padding-left: 70px;
+    margin-top: 100px;
+}
+
+.coffee-order h1{
+    text-align:justify;
+    font-size: 40px;
+}
+
+.coffee-order p{
+    text-align: justify;
+    font-size: 13px;
+}
+
+.coffee-order button{
+    padding: 10px;
+    border: none;
+    background-color:rgb(250, 219, 47);
+    border-radius: 29px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.coffee-order button a{
+    color: black;
+}
+
+.coffee-order button a:hover{
+    color: white;
+    padding: 5px;
+    border: none;
+    border-radius: 29px;
+}
+
+.coffee-order button a:hover{
+    color: white;
+    padding: 5px;
+    border: none;
+    border-radius: 29px;
+}
+
+.imago{
+    float: right;
+    height: auto;
+}
+
+.imago .grains{
+    float: right;
+    position: relative;
+}
+
+.imago .cup{
+    height: 480px;
+    float: right;
+    position: absolute;
+    padding-top: 30px;
+}
+
+.fifth-section{
+    margin-top: 30px;
+    height: auto;
+}
+
+.our-coffee{
+    text-align: center;
+    position: relative;
+}
+
+.desig img{
+    float:right;
+    margin-top: -70px;
+}
+
+.fifth-section .feeds{
+    text-align: center;
+}
+
+.fifth-section .feeds h1{
+    color: rgb(92, 27, 27);
+}
+
+.fifth-section .feeds h2{
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+.our-coffee .desigg{
+    text-align: center;
+    justify-self: center;
+    margin-top: 200px;
+}
+
+.desigg h2{
+    color: rgb(90, 22, 22);
+    margin-top: 15px;
+}
+
+.desigg h3{
+    font-size: 15px;
+}
+
+.desigg img{
+    height: 90px;
+    width: 80px;
+    border-radius: 20px;
+}
+
+.imags img{
+    float: left;
+}
+.subscribe{
+    background: url("images/Rectangle\ 14.png") no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 250px;
+
+}
+.subscribe .latest-news{
+    text-align: center;
+    margin-top: 30px;
+    color: white;
+}
+
+.latest-news h1{
+    padding-top: 30px;
+    font-size: 35px;
+    margin-bottom: 50px;
+}
+
+.latest-news h2{
+    font-size: 15px;
+    font-weight: lighter;
+    margin-bottom: 20px;
+}
+
+.latest-news input{
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: none;
+    margin-bottom: 50px;
+}
+
+.latest-news button{
+    padding: 10px;
+    border: none;
+    background-color:rgb(252, 229, 100);
+}
+
+.latest-news button a{
+    color: black;
+    font-weight: bold;
+}
+
+.latest-news button:hover{
+    background-color: brown;
+}
+
+.latest-news button a:hover{
+    color: white;
+}
+
+.imag{
+    width: 100%;
+}
+
+.imag .first{
+    float: left;
+    width: 200px;
+    margin-top: -100px;
+}
+
+.imag .second{
+    float: right;
+    width: 200px;
+    margin-top: -100px;
+}
+
+.company{
+    background: url("images/fotter_image.png");
+    background-size:cover;
+    background-color: rgb(29, 2, 2);
+    color: white;
+    width: 100%;
+    height: auto;
+}
+
+.contact{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    text-align:justify;
+    justify-content: space-between;
+}
+
+.about .bean h1{
+    font-family: Clicker Script;
+    margin-bottom: 20px;
+}
+
+.about .bean h2{
+    font-size: 17px;
+    font-weight: lighter;
+}
+
+.about .abouts h1{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.about .abouts h2{
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+.about .companys h1{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.about .companys h2{
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+.about .contact-us{
+    margin-right: 40px;
+}
+.about .contact-us h1{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.about .contact-us h2{
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+.footer{
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+
+@media(max-width: 736px){
+     header,
+    .design,
+    .first-section,
+    .second-section,
+    .third-section .quality,
+    .fourth-section,
+    .fifth-section,
+    .subscribe .company{
+    float: none;
+    width: 100%;
+    }
+
+    .first img{
+        justify-content: center;
+        float: none;
+    }
+
+    .imago{
+        width: 100%;
+    }
+
+    .navbar ul li{
+        display:block;
+        float: none;
+        width: 100%;
+    }
+
+    .fifth-section .our-coffee .desigg{
+        float: none;
+        text-align:center;
+    }
+
+    .company .about{
+        float: none;
+        margin-top: 20px;
+        width: 100%;
+        padding-left: 10px;
+    }
+
+    .company .about .bean{
+        padding: none;
+        margin: none;
+    }
+
+    .footer{
+        text-align: center;
+    }
+}
+
+
+
