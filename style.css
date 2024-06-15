@@ -12,17 +12,16 @@ body{
 }
 
 header{
-    width: 100%;
     background: url("images/headder.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    width: 100%;
     height: auto;
     color: white;
 }
 
 .navbar{
-    width:fit-content;
     padding: 20px 100px;
     display: flex;
     flex-wrap: wrap;
@@ -127,15 +126,13 @@ header .content button a:hover{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding-left: 40px;
+    padding-left: 0px;
 }
 
 .first img{
     width: 380px;
     height: 280px;
     float: right;
-    background-image: none;
-    margin-right: 60px;
 }
 
 .design .section h1{
@@ -433,6 +430,7 @@ header .content button a:hover{
 .imags img{
     float: left;
 }
+
 .subscribe{
     background: url("images/Rectangle\ 14.png") no-repeat;
     background-size: cover;
@@ -449,13 +447,13 @@ header .content button a:hover{
 .latest-news h1{
     padding-top: 30px;
     font-size: 35px;
-    margin-bottom: 50px;
+    margin-bottom: 10px;
 }
 
 .latest-news h2{
     font-size: 15px;
     font-weight: lighter;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 
 .latest-news input{
@@ -520,7 +518,7 @@ header .content button a:hover{
 
 .about .bean h1{
     font-family: Clicker Script;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .about .bean h2{
@@ -530,7 +528,7 @@ header .content button a:hover{
 
 .about .abouts h1{
     font-size: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 .about .abouts h2{
     font-size: 16px;
@@ -539,7 +537,7 @@ header .content button a:hover{
 
 .about .companys h1{
     font-size: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .about .companys h2{
@@ -547,12 +545,9 @@ header .content button a:hover{
     font-weight: lighter;
 }
 
-.about .contact-us{
-    margin-right: 40px;
-}
 .about .contact-us h1{
     font-size: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .about .contact-us h2{
@@ -561,58 +556,50 @@ header .content button a:hover{
 }
 
 .footer{
-    margin-left: 30px;
     margin-top: 30px;
+    text-align: center;
 }
 
 
 @media(max-width: 736px){
-     header,
-    .design,
-    .first-section,
-    .second-section,
-    .third-section .quality,
     .fourth-section,
-    .fifth-section,
-    .subscribe .company{
+    .first-section{
     float: none;
-    width: 100%;
-    }
-
-    .first img{
-        justify-content: center;
-        float: none;
+    width: 100%
     }
 
     .imago{
         width: 100%;
     }
 
-    .navbar ul li{
-        display:block;
-        float: none;
-        width: 100%;
-    }
-
-    .fifth-section .our-coffee .desigg{
-        float: none;
-        text-align:center;
-    }
-
-    .company .about{
-        float: none;
-        margin-top: 20px;
-        width: 100%;
-        padding-left: 10px;
-    }
-
-    .company .about .bean{
-        padding: none;
-        margin: none;
-    }
-
     .footer{
         text-align: center;
+    }
+
+    .first img{
+        width: 350px;
+        float: none;
+    }
+    .design-splash img{
+        width: 340px;
+    }
+
+    .design-logo img{
+        width: 340px;
+    }
+
+    .desig img{
+        width: 340px;
+    }
+
+    .imags img{
+        width: 340px;
+    }
+
+    .fourth-section .coffee-order h1{
+        font-size: 30px;
+        margin: 0;
+        padding: 0;
     }
 }
 
